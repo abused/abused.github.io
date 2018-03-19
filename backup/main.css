@@ -1,0 +1,261 @@
+/*
+Amendments by SwordKorn 31/12/17
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background: url(../images/skbg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.left {
+	margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: #222;
+    overflow: hidden;
+    height: 100%;
+    float:left;
+}
+
+.links {
+	color: white;
+	list-style-type: none;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	background: rgba(0,0,0,0.5);
+	border-bottom: solid #099 2px;
+	z-index: 1;
+	text-align: center;
+}
+
+.navBtn {
+	padding: 10px;
+	width: 150px;
+	transition: ease all 0.2s;
+}
+
+.active {
+	padding: 10px;
+	width: 200px;
+	background: rgba(0,0,0,0.4);
+}
+
+.navBtn:hover {
+	width: 200px;
+	background: rgba(0,0,0,0.4);
+}
+
+@media screen and (max-width: 600px) {
+	.navbar {
+		top: 40px;
+	}
+
+	.responsive {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		background-color: #099;
+		z-index: 2;
+		text-align: center;
+		display: none;
+	}
+
+	.navBtn {
+		width: 600px;
+		padding: 10px;
+		float: none;
+		transition: ease background-color 0.2s;
+		display: block;
+		text-align: left;
+	}
+
+	.navBtn:hover {
+		background: rgba(0,0,0,0.4);
+		width: 600px;
+	}
+
+	.active {
+		width: 600px;
+		text-align: left;
+	}
+}
+
+.navbar ul {
+	text-align: center;
+}
+
+.navbar ul li, .navbar ul li a {
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.w3-button:hover{
+	color:#000!important;
+	background-color:lightgreen!important;
+}
+
+.sk_cstm_btn {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.sk_cstm_btn {
+		position: relative;
+		background-color: #088;
+		border: none;
+		z-index: 2;
+		float: left;
+		font-size: 20px;
+		color: #fff;
+		transition: ease all 0.2s;
+		display: block;
+		padding: 5px;
+		position: fixed;
+		width: 100%;
+		text-align: left;
+	}
+
+	.sk_cstm_btn:hover {
+		cursor: pointer;
+		background-color: #099;
+	}
+}
+
+#openNav {
+  position: fixed;
+}
+
+.copyright {
+	text-decoration: none;
+	vertical-align: bottom;
+}
+
+.ceo, .work {
+	height: auto;
+width: 100%;
+background-color: white;
+border-bottom: solid lightgreen 5px;
+text-align: center;
+overflow: visible;
+top: 50px;
+
+}
+
+.info {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    background-color: rgb(80, 182, 208);
+    border-color: rgb(80, 182, 208);
+}
+
+.des {
+  color: rgb(90, 145, 208);
+}
+
+.pdes {
+  font-size: 12px;
+}
+
+.img1, .img2, .img3 {
+	z-index: -1;
+	width: 100%;
+	height: 75%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.img1 {
+  background-image: url("../images/div/1.png");
+}
+
+.img2 {
+  background-image: url("../images/div/2.png");
+}
+
+.img3 {
+  background-image: url("../images/div/3.png");
+}
+
+.buttons {
+  color: white;
+  background-color: teal;
+  font-size: 20px;
+  transition: ease all 0.2s;
+}
+
+.buttons:hover {
+  font-size: 25px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.textli {
+  color: teal;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    height: auto;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.tos {
+  background-color: rgba(255,255,255,0.38);
+  color: black;
+  width: 80%;
+  height: auto;
+  font-weight: bold;
+  text-align: left;
+
+  border-radius: 25px;
+  border: 5px solid white;
+  padding: 20px; 
+}
+
+.smaller {
+  font-size: 12px;
+}
+
+.logo {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	top: 50px;
+	margin-bottom: 120px;
+	color: #fff;
+}
+
+.text {
+	background: linear-gradient(rgba(0,0,0,0.9) 30%, rgba(0,0,0,0));
+	position: relative;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 0px 2px #000;
+}
