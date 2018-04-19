@@ -1,0 +1,60 @@
+body {
+  background-color: #111111;
+}
+
+.nav2 li {
+    margin-right: 20px;
+}
+
+li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.info {
+	display: inline-block;
+	background-color: transparent;
+	color: white;
+	width: 60%;
+	height: auto;
+	overflow: auto;
+	border-left: 5px solid rgba(255, 102, 226, 0.4);
+	border-right: 5px solid rgba(255, 102, 226, 0.4);
+}
+
+.circle {
+	border-radius: 50%;
+	border: 5px solid rgba(255, 102, 226, 0.8);
+	box-shadow: 0 3px 2px rgba(255, 102, 226, 0.4);  
+	width: 200px;
+	height: 200px;
+}
+
+.myinfo {
+	font-size: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+	width: 64%;
+	color: lightgray;
+}
+
+.slogan {
+	font-size: 26px;
+	color: white;
+}
+
+.logodiv {
+	padding-left: 120px;
+}
+
+.percent {
+	background-color: transparent;
+	width: 36%;
+	height: auto;
+	color: white;
+	overflow: hidden;
+	display: inline-block;
+	align-content: middle;
+	border-top: 3px solid rgba(255, 102, 226, 0.4);
+	border-bottom: 3px solid rgba(255, 102, 226, 0.4);
+}
