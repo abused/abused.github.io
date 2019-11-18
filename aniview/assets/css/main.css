@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-	background-color: var(--backgroundColor);
+	background-color: var(--backgroundColor) !important;
 }
 
 .header {
@@ -100,7 +100,7 @@ body {
 	position: relative;
 	bottom: 0;
 	width: 100%;
-	background-color: var(--footerBackgroundColor);
+	background-color: var(--footerBackgroundColor) !important;
 	border-top: 5px solid var(--borderColor);
 	text-align: center;
 	height: 60px;
