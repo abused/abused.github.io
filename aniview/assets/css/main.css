@@ -1,0 +1,137 @@
+:root {
+	--backgroundColor: #272C38;
+	--backgroundImage: url('../images/bg2.jpg');
+	--borderColor: #3DB4F2;
+	--textColor2: rgb(163, 185, 204);
+	--textColor: white;
+	--footerBackgroundColor: #1F232D;
+}
+
+html, body {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--backgroundColor);
+}
+
+.header {
+	width: 100%;
+	height: 70%;
+	background-image: var(--backgroundImage);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	border-bottom: 5px solid var(--borderColor);
+}
+
+.headerContent {
+	height: 80%;
+	width: 64%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.left {
+	width: 49%;
+	height: 100%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10%;
+}
+
+.right {
+	width: 39%;
+	height: 100%;
+	float: right;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5%;
+}
+
+.logo {
+	width: 20%;
+	vertical-align: middle;
+}
+
+.welcomeDisplay {
+	margin: 0 auto;
+	height: 80%;
+}
+
+.title {
+	margin-top: -15px;
+	font-family: 'Roboto';
+	font-size: 42px;
+	font-weight: bold;
+	color: var(--textColor);
+	text-shadow: black 0px 0px 10px;
+
+}
+
+.text {
+	margin-top: -20px;
+	font-size: 20px;
+	font-family: 'Roboto';
+	color: var(--textColor);
+	text-shadow: var(--borderColor) 0px 0px 10px;
+}
+
+.getOnStores {
+	height: 13%;
+	width: 405px;
+	margin: 0 auto;
+}
+
+.badge {
+	width: 100%;
+}
+
+.apple {
+	margin: 6%;
+	width: 80%;
+}
+
+.footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--footerBackgroundColor);
+	border-top: 5px solid var(--borderColor);
+	text-align: center;
+	height: 60px;
+}
+
+.footerContent {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 16px;
+	font-family: 'Roboto';
+	color: var(--textColor2);
+}
+
+.images {
+	width: 60%;
+}
+
+.displays {
+	display: flex;
+  	margin-top: 20px;
+  	margin-bottom: 60px;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
+}
+
+.description {
+	width: 50%;
+	font-size: 16px;
+	font-family: 'Roboto';
+	color: var(--textColor2);
+}
